@@ -19,14 +19,14 @@ const API_KEY = '7F3F9B1E-2DA2-467E-80DA-D5126E9EE8C8';
 const TABLE_NAME = 'SensorData';
 
 const safeRanges = {
-    Temperature: { min: 0, max: 5, unit: '°C' },
-    Humidity: { min: 70, max: 90, unit: '%' },
-    CO2: { min: 0, max: 1000, unit: 'ppm' },
-    CH4: { min: 0, max: 10, unit: 'ppm' },
-    NH3: { min: 0, max: 5, unit: 'ppm' },
-    Propane: { min: 0, max: 2, unit: 'ppm' },
-    Toluene: { min: 0, max: 1, unit: 'ppm' },
-    Alcohol: { min: 0, max: 50, unit: 'ppm' },
+    Temperature: { min: 0, max: 25, unit: '°C' },
+    Humidity: { min: 0, max: 50, unit: '%' },
+    CO2: { min: 0, max: 500, unit: 'ppm' },
+    CH4: { min: 0, max: 50, unit: 'ppm' },
+    NH3: { min: 0, max: 12.5, unit: 'ppm' },
+    Propane: { min: 0, max: 10, unit: 'ppm' },
+    Toluene: { min: 0, max: 2.5, unit: 'ppm' },
+    Alcohol: { min: 0, max: 10, unit: 'ppm' },
 };
 
 async function fetchLatestData() {
