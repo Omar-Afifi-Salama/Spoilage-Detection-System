@@ -285,7 +285,7 @@
 
         @media (min-width: 769px) { /* Styles for desktop and larger */
             .chart-container {
-                min-height: 800px; /* Increased height for desktop */
+                min-height: 400px; /* Increased height for desktop */
                 margin: 40px 20px; /* Increased vertical margin for spacing */
                 width: 95%;
                 margin: 10px 0;
