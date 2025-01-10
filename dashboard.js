@@ -194,7 +194,7 @@ async function fetchLatestData() {
         const canvasId = `${key}-chart`;
         const chartBlock = document.createElement('div');
         chartBlock.className = 'chart-block';
-        chartBlock.innerHTML = `<canvas id="${canvasId}" height="800"></canvas>`; // Set height here
+        chartBlock.innerHTML = `<canvas id="${canvasId}" height="400"></canvas>`; // Set height here
         chartsContainer.appendChild(chartBlock);
 
         const color = colors[index % colors.length]; // Cycle through colors
